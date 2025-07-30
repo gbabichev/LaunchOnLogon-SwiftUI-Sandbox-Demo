@@ -1,9 +1,9 @@
+# Add “Open at Login” the Apple Approved Way!
+
 ## Why the guide? 
 Apparently, it's more difficult than you'd think to get a **sandboxed** app to support Login Items. 
 
-If you're building a non-sandboxed app (IE: it's not going to the App Store) - this is way easier with a LaunchAgent plist. Check out my guide here for that. 
-
-**NOTE:** This app will not show up under "Open on Login" under System Settings -> General -> Login Items. This was a massive misconseption on my end. Apps using the sandboxed methods will show up under System Settings -> General -> Login Items & Extensions -> **Allow in the Background**.
+>**NOTE:** This app will not show up under "Open on Login" under System Settings -> General -> Login Items. Apps using the sandboxed method will show up under System Settings -> General -> Login Items & Extensions -> **Allow in the Background**.
 
 
 ## How does this all work?
